@@ -1,32 +1,22 @@
 # SI-2024-CubeSat-SU
-📡Repository for Summer Internship 2024 "Intro to CubeSat and Satellite Communication
+Repository for Summer Internship 2024- **"Introduction to CubeSat and Satellite Communication."**
 # Lab Exercises
-## Lab-1 Introduction to ESP32
--[Datasheet ESP32]
+## _Lab-1 Introduction to ESP32_
+<ul>
+<li>Blinking Off LED</li>
+
 ```python
-#define LED1 2
-#define LED2 5
-
-// the setup function runs once when you press reset or power the board
-
+#define LED 2
 void setup() {
   // initialize digital pin LED_BUILTIN as an output.
-  pinMode(LED1, OUTPUT);
-
-  // initialize digital pin LED_BUILTIN as an output.
-  pinMode(LED2, OUTPUT);
+  pinMode(LED, OUTPUT);
 }
-
 
 // the loop function runs over and over again forever
 void loop() {
-  digitalWrite(LED1, HIGH);  // turn the LED on (HIGH is the voltage level)
+  digitalWrite(LED, HIGH);  // turn the LED on (HIGH is the voltage level)
   delay(1000);                      // wait for a second
-  digitalWrite(LED1, LOW);   // turn the LED off by making the voltage LOW
-  delay(1000); 
-   digitalWrite(LED2, HIGH);  // turn the LED on (HIGH is the voltage level)
-  delay(1000);                      // wait for a second
-  digitalWrite(LED2, LOW);   // turn the LED off by making the voltage LOW
+  digitalWrite(LED, LOW);   // turn the LED off by making the voltage LOW
   delay(1000);                      // wait for a second
 }
 ```
