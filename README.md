@@ -1,5 +1,5 @@
 # SI-2024-CubeSat-SU
-Repository for Summer Internship 2024 "Intro to CubeSat and Satellite Communication
+📡Repository for Summer Internship 2024 "Intro to CubeSat and Satellite Communication
 # Lab Exercises
 ## Lab-1 Introduction to ESP32
 -[Datasheet ESP32]
