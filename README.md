@@ -54,7 +54,7 @@ void loop()
 <ul>
   <li>https://github.com/ApurbaMohanty12/SI-2024-CubeSat-SU/blob/main/SI-CUBESAT-THEORY</li>
 </ul>
-<li>Figure</li>
+<li>Output</li>
   <ul>
     <li>https://github.com/ApurbaMohanty12/SI-2024-CubeSat-SU/blob/main/SI-CUBESAT-THEORY</li>
   </ul>
