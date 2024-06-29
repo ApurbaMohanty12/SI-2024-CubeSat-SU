@@ -13,7 +13,10 @@ Repository for Summer Internship 2024- **"Introduction to CubeSat and Satellite 
 <ul>
   <li>Introduction to ESPN32 Board by Prof Prasanta Swain Sir.
   <li>ESPN32 is technically a chip,that provide Internet and Bluetooth to IoT Devices.</li>
-  <li>Figure of ESPN32 Board(Refer to https://github.com/ApurbaMohanty12/SI-2024-CubeSat-SU/blob/main/SI-CUBESAT-THEORY) </li>
+  <li>Figure of ESPN32 Board</li>
+  <ul>
+    <li>https://github.com/ApurbaMohanty12/SI-2024-CubeSat-SU/blob/main/SI-CUBESAT-THEORY</li>
+  </ul>
 
   
   <li>Requisites-</li>
@@ -48,5 +51,11 @@ void loop()
 }
 ```
 <li>Circuit Diagram</li>
-<li>Figure</li>
+<ul>
+  <li>https://github.com/ApurbaMohanty12/SI-2024-CubeSat-SU/blob/main/SI-CUBESAT-THEORY</li>
 </ul>
+<li>Figure</li>
+  <ul>
+    <li>https://github.com/ApurbaMohanty12/SI-2024-CubeSat-SU/blob/main/SI-CUBESAT-THEORY</li>
+  </ul>
+
