@@ -28,7 +28,7 @@ Repository for Summer Internship 2024- **"Introduction to CubeSat and Satellite 
     </ul>
 
 
-## Basic Bliinking off LED
+## Basic Blinking off LED💡
 <ul>
   
 <li>Python Code</li>
