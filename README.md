@@ -1,5 +1,19 @@
 # SI-2024-CubeSat-SU
 Repository for Summer Internship 2024- **"Introduction to CubeSat and Satellite Communication."**
+# 📚THEORY
+## _Day-1 Introduction to CUBESAT_
+<ul>
+  <li>Introduction to small satellite formal CubeSats🛰️</li>
+  <ul>
+    <li>What is a CubeSat?</li>
+    CubeSat is an abbreviation form for Cube Satellite.
+    Generally,it is a class of nanosatellites.
+    <li>Dimensions of a CubeSat</li>
+    The basic CubeSat design is a cube 10 cm x 10 cm x 10 cm in size and is called 1U (standing for ‘one unit’).
+  </ul>
+   
+  
+</ul>
 # Lab Exercises
 ## _Lab-1 Introduction to ESP32_
 <ul>
