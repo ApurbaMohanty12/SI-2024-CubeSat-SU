@@ -13,15 +13,16 @@ Repository for Summer Internship 2024- **"Introduction to CubeSat and Satellite 
 <ul>
   <li>Introduction to ESPN32 Board by Prof Prasanta Swain Sir.
   <li>ESPN32 is technically a chip,that provide Internet and Bluetooth to IoT Devices.</li>
-  <li>Figure of ESPN32 Board </li>
-</ul>
-  ![kstm0126-esp32-development-board-2](https://github.com/ApurbaMohanty12/SI-2024-CubeSat-SU/assets/173773194/db3d8af8-a682-43cb-934b-f44bfc2dd905)
+  <li>Figure of ESPN32 Board(Refer to SI-CUBESAT-THEORY) </li>
+
+  
   <li>Requisites-</li>
   <ul>
     <li>Download Arduino IDE</li>
     <li>Open Arduino IDE->Files->Preferences->Add the necessary URLs from <ul><li>https://docs.espressif.com/projects/arduino-esp32/en/latest/installing.html </li>
     <li>https://randomnerdtutorials.com/</li>
   </ul>
+    </ul>
 
 
 ## Basic Bliinking off LED
