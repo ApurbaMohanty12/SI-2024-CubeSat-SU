@@ -22,7 +22,21 @@ Repository for Summer Internship 2024- **"Introduction to CubeSat and Satellite 
   <li>It stands for CubeSat Launch Initiative.</li>
   <li>It is a NASA initiative that provides oppurtunities for qualified CubeSats to fly as auxiliary payloads on future launches that have excess capacity.</li>
   <li>It enables NASA to develop public private partnerships that provide a low cost platform for NASA Science missions,including planetary explorations,Earth observations and fund Earth Science.</li>
-  <li></li>
+  <li>These efforts are a cornerstone in the development of cutting edge NASA enabling technologies including laser communication,next generation avionics approaches,power generation,distributive sensor systems,satellite to satellite communications and autonomous movement</li>
+  <li>About half of all CLSI missions are conducting scientific investigations,most frequently Space Weather & Earth Science,which include biological sciences,study of near Earth objects,climate change,snow ice coverage,orbital debris,planetary science,space based astronomy and heliophysics.</li>
+  <li>60 % of all CLSI missions are conducting techology developments.Notable technologies are</li>
+  <ul>
+    <li>Communication</li>
+    <li>Propulsions</li>
+    <li>Navigation</li>
+    <li>Control</li>
+    <li>Radiation Testing</li>
+    <li>Solar sails</li>
+    <li>Additive Manufacturing</li>
+    <li>FemtoSatellites</li>
+    <li>Smart Phone Satellites</li>
+  </ul>
+  <li>The low cost development of a CubeSat allows for conducting higher risk activites that would not be possible on large scale NASA missions.</li>
 </ul>
 
 # 💻LAB 
