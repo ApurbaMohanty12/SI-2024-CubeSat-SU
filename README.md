@@ -39,6 +39,25 @@ Repository for Summer Internship 2024- **"Introduction to CubeSat and Satellite 
   <li>The low cost development of a CubeSat allows for conducting higher risk activites that would not be possible on large scale NASA missions.</li>
 </ul>
 
+
+## CubeSats 🧊
+<ul>
+  <li>CubeSats makes it possible for companies to mass produce components and shelf parts.</li>
+  <li>It also helps reduce costs associated with transporting them and deploying them into space.</li>
+  <li>They come in several sizes(based on one unit or 1U)</li>
+  <ul>
+    <li>1U=10cm cube</li>
+    <li>Mass=1.33kg</li>
+  </ul>
+  <li>We can have sizes upto 1.5U,2U,3U,6U & 12U.</li>
+</ul>
+
+## CubeSat Dispenser Systems 🚀
+<ul>
+  <li>It is the interface between CubeSat and Launch Vehicle</li>
+  <li
+</ul>
+
 # 💻LAB 
 ## Introduction to ESPN32 Board
 <ul>
