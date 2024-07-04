@@ -321,7 +321,7 @@ display.print(" %");
 display.display();
 }
 ```
-## LoRa Sender Protocol
+## LoRa Sender Protocol📡
 ```python
 #include<SPI.h>
 #include<LoRa.h>
@@ -360,7 +360,7 @@ void loop() {
 
 }
 ```
-## LoRa Receiver Protocol
+## LoRa Receiver Protocol 📡
 ```python
 #include<SPI.h>
 #include<LoRa.h>
