@@ -8,6 +8,23 @@ Repository for Summer Internship 2024- **"Introduction to CubeSat and Satellite 
   <li>Introduction to ToSpace by Adnaan M Sir.</li>
 </ul>
 
+## Introduction to small satellites and formal CubeSats 🧊
+<ul>
+  <li>CubeSat is an actual spacecraft i.e launched into orbits,which is basically developed in educational institutes.</li>
+  <li>It began as a collaborative effort in 1999 between Jordi Puig-Suari(a professor at Cal Poly) and Bob Twiggs(a professor at SSDL).</li>
+  <li>The original intent of the project was to provide access to space for Space Uni Science Community.Many major schools and universities have also been able to start CCubeSats program of their own.</li>
+  <li>Govt. agencies and commercial groups around the world have developed CubeSats.</li>
+  <li>It can help reduce the costs of techical development and scientific investigations,and increase accrss to space,an exponential growth in the popularity of CubeSats.</li>
+</ul>
+
+### CLSI
+<ul>
+  <li>It stands for CubeSat Launch Initiative.</li>
+  <li>It is a NASA initiative that provides oppurtunities for qualified CubeSats to fly as auxiliary payloads on future launches that have excess capacity.</li>
+  <li>It enables NASA to develop public private partnerships that provide a low cost platform for NASA Science missions,including planetary explorations,Earth observations and fund Earth Science.</li>
+  <li></li>
+</ul>
+
 # 💻LAB 
 ## Introduction to ESPN32 Board
 <ul>
