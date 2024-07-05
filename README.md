@@ -93,6 +93,9 @@ void loop()
   delay(1000);                      // wait for a second
 }
 ```
+<li>![Basic Blinking off LED](https://github.com/ApurbaMohanty12/SI-2024-CubeSat-SU/assets/173773194/0ae1ac98-1cef-410d-8373-be80ac6c23d6)</li>
+</ul>
+
 ## Multiple Blinking of LED 💡
 <ul>
   <li>Python Code</li>
