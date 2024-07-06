@@ -58,6 +58,7 @@ Repository for Summer Internship 2024- **"Introduction to CubeSat and Satellite 
 ## CubeSat Dispenser Systems 🚀
 <ul>
   <li>It is the interface between CubeSat and Launch Vehicle</li>
+  <li>It provides attachment to launch vehicles,and also protects the CubeSat during launch and releases it into space</li>
   
   
 </ul>
