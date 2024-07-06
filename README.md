@@ -76,6 +76,41 @@ Repository for Summer Internship 2024- **"Introduction to CubeSat and Satellite 
   
 </ul>
 
+
+ ## Launch Vehicle 🚀
+ <ul>
+   <li>CLSI contracts with multiple launch services that allow CubeSats to hitch a ride.</li>
+   <li>When the CubeSat or dispenser package was first dreamed up,the idea was to bolt the the dispenser onto the rocket where space was available.</li>
+   <li>A CubeSat can be sent with the cargo on a resupply mission to the SpaceStation.The CubeSat would be taken abroad the SpaceStation and released into space in specially designed deployer.</li>
+ </ul>
+
+ ## Development Process Overview 📊
+ <ul>
+   <li>The overall timeframe can vary depending on the launch vehicles selected and what you are trying to accomplish with your CubeSat.</li>
+   <li>A CubeSat can be designed,bulit,tested and delivered in as little as 9 months,but it takes typically,18 to 24 months to complete.
+   Once your CubeSat is delivered,the typical time to launch is anywhere from few months to few years.This is obviously affected by the availability of launch oppurtunities,but also by the feasibilty of your orbital requirements-the more flexible,the easier to manifest,and therefore the shorter wait. </li>
+   <li>Launch vehicles will usually require you to deliver your finished CubeSat between 4 to 6 months,prior to launch.</li>
+   <li>The project phases are as follows:</li>
+   <ul>
+     <li>Concept Development(1-6 Months)</li>
+     <li>Securing Fundings (1-12 Months)</li>
+     <li>Merit and Feasibility Review(1-2 Months)</li>
+     <li>CubeSat Design(1-6 Months)</li>
+     <li>Development and Submittal of Proposal in response to CLSI call.(3-4 Months)</li>
+     <li>Selection and Manifesting(1-36 Months)</li>
+     <li>Mission Co-ordination(9-18 Months)</li>
+     <li>Licensing(4-6 Months)</li>
+     <li>Flight Specific Documentation and Development and Submittal(10-12 Months)</li>
+     <li>Groundstation Designs Development and Testing(2-12 Months)</li>
+     <li>CubeSat Hardware Fabrication and Testing(2-12 Months)</li>
+     <li>Mission Readiness Review(1/2 Day)</li>
+     <li>CubeSat to Dispenser Integration and Testing(1 Day)</li>
+     <li>Launch(1 Day)</li>
+     <li>Mission Operation(variable,upto 20 years)</li>
+   </ul>
+   
+ </ul>
+ 
 # 💻LAB 
 ## Introduction to ESPN32 Board
 <ul>
