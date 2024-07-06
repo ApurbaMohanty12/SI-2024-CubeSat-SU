@@ -58,7 +58,20 @@ Repository for Summer Internship 2024- **"Introduction to CubeSat and Satellite 
 ## CubeSat Dispenser Systems 🚀
 <ul>
   <li>It is the interface between CubeSat and Launch Vehicle</li>
-  <li>It provides attachment to launch vehicles,and also protects the CubeSat during launch and releases it into space</li>
+  <li>It provides attachment to launch vehicles,and also protects the CubeSat during launch and releases it into space,and also protects the CubeSat during launch and releases it into space at appropriate time.</li>
+  <li>All of these are designed to hold satellites that conform to standard CubeSat form factor.</li>
+  <li>3 U Dispensers</li>
+  <ul>
+    <li>The first dispenser of CubeSat ws Poly Pico satellite Orbital Deployes(P-POD),developed by Cal Poly,San Luis Obipso.It can hold upto 3Us of CubeSat payloads or any combination that adds upto 3U.</li>
+    <li>When its time to release the payload,then the launch vehicle sends an electrical signal to P-POD that causes the door to open and release CubeSats</li>
+    <li>Although most dispensers have have different designs,they all tend to follow the same basic idea.In the beginning ,P-POD may have been the only option for CubeSats,but now there are several dispenser choices.</li>
+    
+  </ul>
+  <li>6 U Dispensers</li>
+  <ul>
+    <li>In 2014,6U was born.The form factor of 6U is essentially the same as two 3Us side by side,making it twice as wide.</li>
+    <li>They function similarly to the 3U Dispensers.</li>
+  </ul>
   
   
 </ul>
