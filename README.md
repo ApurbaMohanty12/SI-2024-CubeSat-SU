@@ -16,7 +16,7 @@ Repository for Summer Internship 2024- **"Introduction to CubeSat and Satellite 
   <li>Govt. agencies and commercial groups around the world have developed CubeSats.</li>
   <li>It can help reduce the costs of techical development and scientific investigations,and increase accrss to space,an exponential growth in the popularity of CubeSats.</li>
   <li>Figure-Small Satellite![Nano-Satellite_Featured-Image](https://github.com/ApurbaMohanty12/SI-2024-CubeSat-SU/assets/173773194/c4917bc3-2642-4359-9ce4-9f1d99aa8a1b)</li>
-  <li>Figure-CubeSat![CubeSats](https://github.com/ApurbaMohanty12/SI-2024-CubeSat-SU/assets/173773194/8032d388-62eb-457e-a9da-668ef8fb441c)</li>
+  <li>Figure-CubeSat:(https://github.com/ApurbaMohanty12/SI-2024-CubeSat-SU/assets/173773194/8032d388-62eb-457e-a9da-668ef8fb441c)</li>
 </ul>
 
 ### CLSI
