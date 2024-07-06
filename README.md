@@ -110,7 +110,29 @@ Repository for Summer Internship 2024- **"Introduction to CubeSat and Satellite 
    </ul>
    
  </ul>
- 
+
+ ## Mission Models🏛️
+ <ul>
+   <li>We know CLSI has flown Cubesats on a number of different launch vehicles,which were sponsored by different organizations.These organizations are called "Mission Models".</li>
+   <li>Major Mission Models that CLSI has worked for are:</li>
+   <ul>
+     <li>NASA procured Launch Vehicle Mission Model</li>
+     <li>Operationally Responsive Space Ride Mission Model</li>
+     <li>National Reconnaissance Office Rideshare Mission Model</li>
+     <li>Commercial Launch Service through a third party broker Mission Model</li>
+     <li>International Space Station Mission Model</li>
+   </ul>
+ </ul>
+
+ ## Requirement Sources for Launch 🛰️
+ <ul>
+   <li>Mission Specific Interface Control Documents(ICDs)</li>
+   <li>Launch Services Program(LSP)-Program Level Requirements</li>
+   <li>CubeSat Design Specifications (CDS)</li>
+   <li>Dispenser Standard or Specifications</li>
+   <li>Federal Statutes</li>
+   <li>Range Safety Requirements</li>
+ </ul>
 # 💻LAB 
 ## Introduction to ESPN32 Board
 <ul>
