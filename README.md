@@ -133,6 +133,11 @@ Repository for Summer Internship 2024- **"Introduction to CubeSat and Satellite 
    <li>Federal Statutes</li>
    <li>Range Safety Requirements</li>
  </ul>
+
+ # Capacitors
+ <ul>
+   <li>Basic knowledge of capacitos is required, refer to CAPACITORS.docx</li>
+ </ul>
 # 💻LAB 
 ## Introduction to ESPN32 Board
 <ul>
