@@ -135,7 +135,7 @@ Repository for Summer Internship 2024- **"Introduction to CubeSat and Satellite 
  </ul>
 
 
- ## Payloads
+ ## Payloads 🗃️
  <ul>
    <li>It is the technological instrument carried on board a satellite for a specific task.</li>
    <li>The payload can vary greatly depending on the purpose of the satellite, and it defines the satellite's capabilities and the type of data or services it can provide.</li>
@@ -149,6 +149,12 @@ Repository for Summer Internship 2024- **"Introduction to CubeSat and Satellite 
      <li>Magnet Battery </li>
      <li>Solar Cell</li>
    </ul>
+ </ul>
+
+ ## Inside Cubesat 💻
+ 
+ <ul>
+   <li>Refer to CUBESAT.docx</li>
  </ul>
 
  # Capacitors
