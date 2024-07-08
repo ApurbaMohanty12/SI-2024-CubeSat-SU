@@ -134,10 +134,29 @@ Repository for Summer Internship 2024- **"Introduction to CubeSat and Satellite 
    <li>Range Safety Requirements</li>
  </ul>
 
+
+ ## Payloads
+ <ul>
+   <li>It is the technological instrument carried on board a satellite for a specific task.</li>
+   <li>The payload can vary greatly depending on the purpose of the satellite, and it defines the satellite's capabilities and the type of data or services it can provide.</li>
+   <li>Figure-(https://github.com/ApurbaMohanty12/SI-2024-CubeSat-SU/assets/173773194/f33b37a0-4712-4ed8-8835-c58b3e6aabe5)</li>
+   <li>The minimal payload consists of-</li>
+   <ul>
+     <li>Antenna</li>
+     <li>On-Board Computer</li>
+     <li>Attitude Control Rods</li>
+     <li>Power Mgmt</li>
+     <li>Magnet Battery </li>
+     <li>Solar Cell</li>
+   </ul>
+ </ul>
+
  # Capacitors
  <ul>
    <li>Basic knowledge of capacitos is required, refer to CAPACITORS.docx</li>
  </ul>
+
+ 
 # 💻LAB 
 ## Introduction to ESPN32 Board
 <ul>
