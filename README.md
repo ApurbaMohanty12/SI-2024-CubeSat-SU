@@ -309,6 +309,7 @@ void loop() {
 <ul>
   <li>Stands for Oganic Light Emitting Diode.</li>
   <li>OLEDs are mostly used today in mobile devices - many high-end smartphones use them.</li>
+  <li>Open Arduino IDE->Tools->Manage Libraries->Install the Adafruit and SPI.H libraries</li>
 </ul>
 
 
@@ -401,6 +402,11 @@ void loop() {
 }
 
 ```
+## DHT11
+<ul>
+  <li>It is a common temperature and humidity sensor</li>
+  <li>It converts temperature and humidity into electrical signals that can easily measure temperature and humidity.</li>
+</ul>
 
 ## Temperature & Humidity Sensor 🌬️
 ```python
