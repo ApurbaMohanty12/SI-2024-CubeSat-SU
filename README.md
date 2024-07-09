@@ -618,6 +618,12 @@ void loop() {
 
 ```
 
+## TLE
+<ul>
+  <li>A two-line element set (TLE) is a standardized format used to describe the orbit of a satellite.</li>
+  <li>It encodes a list of orbital elements for an Earth-orbiting object at a specific point in time, known as the epoch.</li>
+</ul>
+
 
 
 
