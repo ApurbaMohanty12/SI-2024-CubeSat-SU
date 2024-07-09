@@ -162,7 +162,7 @@ Repository for Summer Internship 2024- **"Introduction to CubeSat and Satellite 
 
  ## Capacitors
  <ul>
-   <li>Basic knowledge of capacitos is required, refer to CAPACITORS.docx</li>
+   <li>Refer to https://github.com/ApurbaMohanty12/SI-2024-CubeSat-SU/blob/main/CAPACITORS.docx</li>
  </ul>
 
 ## Microprocessor and Microcontroller
