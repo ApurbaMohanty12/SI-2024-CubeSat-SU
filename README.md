@@ -160,14 +160,15 @@ Repository for Summer Internship 2024- **"Introduction to CubeSat and Satellite 
    <li>Refer to CUBESAT.docx</li>
  </ul>
 
- # Capacitors
+ ## Capacitors
  <ul>
    <li>Basic knowledge of capacitos is required, refer to CAPACITORS.docx</li>
  </ul>
 
-# Microprocessor and Microcontroller
+## Microprocessor and Microcontroller
 
 <ul>
+<li>Refer to </li>
   
 </ul>
  
