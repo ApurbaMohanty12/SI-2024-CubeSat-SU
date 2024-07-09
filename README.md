@@ -19,7 +19,7 @@ Repository for Summer Internship 2024- **"Introduction to CubeSat and Satellite 
   <li>Figure-CubeSat:(https://github.com/ApurbaMohanty12/SI-2024-CubeSat-SU/assets/173773194/8032d388-62eb-457e-a9da-668ef8fb441c)</li>
 </ul>
 
-### CLSI![Basic Blinking]
+### CLSI
 
 
 
@@ -306,6 +306,12 @@ void loop() {
 }
 ```
 ## OLED 📱
+<ul>
+  <li>Stands for Organic Light Emitting Diode</li>
+  <li>OLEDs are mostly used today in mobile devices - many high-end smartphones use them.</li>
+  <li>Python Code</li>
+
+  </ul>
 ```python
 #include<SPI.h>
 #include<Wire.h>
@@ -340,6 +346,7 @@ void loop() {
 
 }
 ```
+
 
 ## OLED with scrolling 📱
 ```python
