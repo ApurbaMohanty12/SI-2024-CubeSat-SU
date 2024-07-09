@@ -21,7 +21,7 @@ Repository for Summer Internship 2024- **"Introduction to CubeSat and Satellite 
 
 ### CLSI![Basic Blinking]
 
-![Basic Blinking](https://github.com/ApurbaMohanty12/SI-2024-CubeSat-SU/assets/173773194/ba5c5fe2-7926-4479-bcf7-f84ed7bf0e27)
+
 
 <ul>
   <li>It stands for CubeSat Launch Initiative.</li>
@@ -165,6 +165,11 @@ Repository for Summer Internship 2024- **"Introduction to CubeSat and Satellite 
    <li>Basic knowledge of capacitos is required, refer to CAPACITORS.docx</li>
  </ul>
 
+# Microprocessor and Microcontroller
+
+<ul>
+  
+</ul>
  
 # 💻LAB 
 ## Introduction to ESPN32 Board
