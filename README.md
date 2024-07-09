@@ -172,17 +172,8 @@ Repository for Summer Internship 2024- **"Introduction to CubeSat and Satellite 
   
 </ul>
 
- ## TLE
- <ul>
-   <li> It is a data format encoding a list of orbital elements of an Earth-orbiting object for a given point in time, the epoch. </li>
-   <li>Stands for Two Line Element set</li>
-   <li>We can confidently identify and contact the satellite after launch </li>
-   <li>Steps involved-</li>
-   <ul>
-     <li>Open Ubuntu->Install the necessary packages like skyfield and spg4->Write the code->Compile it-</li>
-     <li>Enter the details of the satellite from https://api.tinygs.com/v1/tinygs_supported.txt->Enter the time,date->The output shows the longitude and the latitude</li>
-   </ul>
- </ul>
+
+  
 # 💻LAB 
 ## Introduction to ESPN32 Board
 <ul>
