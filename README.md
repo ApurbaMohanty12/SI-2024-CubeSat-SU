@@ -168,7 +168,7 @@ Repository for Summer Internship 2024- **"Introduction to CubeSat and Satellite 
 ## Microprocessor and Microcontroller
 
 <ul>
-<li>Refer to </li>
+<li>Refer to https://github.com/ApurbaMohanty12/SI-2024-CubeSat-SU/blob/main/MICROCONTROLLER%20AND%20MICROPROCESSOR.docx </li>
   
 </ul>
  
