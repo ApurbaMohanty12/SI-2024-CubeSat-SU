@@ -305,11 +305,13 @@ void loop() {
 
 }
 ```
-## OLED 📱
+##  I2C & OLED 📱
 <ul>
-  <li>Stands for Oganic Light Emitting Diode.</li>
+  <li>OLED stands for Oganic Light Emitting Diode.</li>
   <li>OLEDs are mostly used today in mobile devices - many high-end smartphones use them.</li>
   <li>Open Arduino IDE->Tools->Manage Libraries->Install the Adafruit and SPI.H libraries</li>
+  <li>I2C stands for Inter-Integrated Circuits</li>
+  <li>It is a simple two-wire serial protocol used to communicate between two devices or chips in an embedded system. </li>
 </ul>
 
 
