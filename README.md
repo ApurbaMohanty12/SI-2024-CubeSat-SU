@@ -524,6 +524,11 @@ display.display();
 </ul>
 
 ## PWM
+<ul>
+  <li>Stands for Pulse Width Modulation.</li>
+  <li>It is any method of representing a signal as a rectangular wave with a varying duty cycle</li>
+  <li>It is useful for controlling the average power or amplitude delivered by an electrical signal</li>
+</ul>
 
 ## LoRa Sender Protocol📡
 ```python
