@@ -15,9 +15,9 @@ Repository for Summer Internship 2024- **"Introduction to CubeSat and Satellite 
   <li>The original intent of the project was to provide access to space for Space Uni Science Community.Many major schools and universities have also been able to start CCubeSats program of their own.</li>
   <li>Govt. agencies and commercial groups around the world have developed CubeSats.</li>
   <li>It can help reduce the costs of techical development and scientific investigations,and increase accrss to space,an exponential growth in the popularity of CubeSats.</li>
-  <li>Figure-Small Satellite![Nano-Satellite_Featured-Image](https://github.com/ApurbaMohanty12/SI-2024-CubeSat-SU/assets/173773194/c4917bc3-2642-4359-9ce4-9f1d99aa8a1b)</li>
-  <li>Figure-CubeSat:(https://github.com/ApurbaMohanty12/SI-2024-CubeSat-SU/assets/173773194/8032d388-62eb-457e-a9da-668ef8fb441c)</li>
+  
 </ul>
+![CubeSats](https://github.com/ApurbaMohanty12/SI-2024-CubeSat-SU/assets/173773194/c675c54d-9d8c-45c9-ac6d-aceab5381416)
 
 ### CLSI
 
@@ -55,8 +55,12 @@ Repository for Summer Internship 2024- **"Introduction to CubeSat and Satellite 
     <li>Mass=1.33kg</li>
   </ul>
   <li>We can have sizes upto 1.5U,2U,3U,6U & 12U.</li>
-  <li>Figure-CubeSats Dimensions![cubesat_dim](https://github.com/ApurbaMohanty12/SI-2024-CubeSat-SU/assets/173773194/c48465d7-9465-48fc-8560-98ee0727fb8e)</li>
+  
 </ul>
+
+![cubesat-dimension-eng](https://github.com/ApurbaMohanty12/SI-2024-CubeSat-SU/assets/173773194/3f841037-5458-4ea8-b146-117da4b28527)
+
+
 
 ## CubeSat Dispenser Systems 🚀
 <ul>
@@ -80,12 +84,16 @@ Repository for Summer Internship 2024- **"Introduction to CubeSat and Satellite 
 </ul>
 
 
+![featured_image](https://github.com/ApurbaMohanty12/SI-2024-CubeSat-SU/assets/173773194/7d9a8e36-ab06-4634-881e-c37baf72cbd7)
+
  ## Launch Vehicle 🚀
  <ul>
    <li>CLSI contracts with multiple launch services that allow CubeSats to hitch a ride.</li>
    <li>When the CubeSat or dispenser package was first dreamed up,the idea was to bolt the the dispenser onto the rocket where space was available.</li>
    <li>A CubeSat can be sent with the cargo on a resupply mission to the SpaceStation.The CubeSat would be taken abroad the SpaceStation and released into space in specially designed deployer.</li>
  </ul>
+ 
+![images](https://github.com/ApurbaMohanty12/SI-2024-CubeSat-SU/assets/173773194/e067615e-fe49-4445-b07d-39b441f8289a)
 
  ## Development Process Overview 📊
  <ul>
@@ -160,7 +168,7 @@ Repository for Summer Internship 2024- **"Introduction to CubeSat and Satellite 
    <li>Refer to https://github.com/ApurbaMohanty12/SI-2024-CubeSat-SU/blob/main/CUBESAT.docx</li>
  </ul>
 
- ## Capacitors
+ ## Capacitors 🔋
  <ul>
    <li>Refer to https://github.com/ApurbaMohanty12/SI-2024-CubeSat-SU/blob/main/CAPACITORS.docx</li>
  </ul>
@@ -179,6 +187,9 @@ Repository for Summer Internship 2024- **"Introduction to CubeSat and Satellite 
 <ul>
   <li>Introduction to ESPN32 Board by Prof Prasanta Swain Sir.
   <li>ESPN32 is technically a chip,that provide Internet and Bluetooth to IoT Devices.</li>
+
+  ![download (1)](https://github.com/ApurbaMohanty12/SI-2024-CubeSat-SU/assets/173773194/36c05c2b-37e4-4ba3-9a0f-9d5682a4098d)
+
   <li>Requisites-</li>
   <ul>
     <li>Download Arduino IDE</li>
@@ -209,8 +220,10 @@ void loop()
   delay(1000);                      // wait for a second
 }
 ```
-<li>![Basic Blinking off LED](https://github.com/ApurbaMohanty12/SI-2024-CubeSat-SU/assets/173773194/0ae1ac98-1cef-410d-8373-be80ac6c23d6)</li>
+
 </ul>
+
+![Basic Blinking](https://github.com/ApurbaMohanty12/SI-2024-CubeSat-SU/assets/173773194/42ae5355-4bff-4fcf-8cf8-7a6e7536686f)
 
 ## Multiple Blinking of LED 💡
 <ul>
