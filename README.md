@@ -505,6 +505,26 @@ display.print(" %");
 display.display();
 }
 ```
+
+## LoRa Technology💻
+<ul>
+  <li>Stands for Long Range.</li>
+  <li>LoRa Technology is the wireless modulation or physical (PHY) silicon layer, used to create the long-range communication link.</li>
+  <li>It uses a form of spread spectrum modulation. The LoRa modulation system uses wide-band linear frequency-controlled pulses.</li>
+  <li>LoRa sensors have a wide range of compatibilities, allowing you to connect them with various machines, devices and even animals and people.</li>
+  
+</ul>
+
+## Raspberry Pi 💻
+<ul>
+  <li>The Raspberry Pi is a type of single-board computer (SBC)</li>
+  <li>The board of a Raspberry Pi contains a CPU; memory; LAN, USB and micro HDMI ports; and a slot for a micro SD card.</li>
+  
+  <li>It is used to control electronic components for physical computing and explore the Internet of Things (IoT).</li>
+</ul>
+
+## PWM
+
 ## LoRa Sender Protocol📡
 ```python
 #include<SPI.h>
