@@ -307,11 +307,13 @@ void loop() {
 ```
 ## OLED 📱
 <ul>
-  <li>Stands for Organic Light Emitting Diode</li>
+  <li>Stands for Oganic Light Emitting Diode.</li>
   <li>OLEDs are mostly used today in mobile devices - many high-end smartphones use them.</li>
-  <li>Python Code</li>
+</ul>
 
-  </ul>
+
+## OLED 📱
+
 ```python
 #include<SPI.h>
 #include<Wire.h>
