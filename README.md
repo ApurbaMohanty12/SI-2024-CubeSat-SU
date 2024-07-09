@@ -171,7 +171,18 @@ Repository for Summer Internship 2024- **"Introduction to CubeSat and Satellite 
 <li>Refer to https://github.com/ApurbaMohanty12/SI-2024-CubeSat-SU/blob/main/MICROCONTROLLER%20AND%20MICROPROCESSOR.docx </li>
   
 </ul>
- 
+
+ ## TLE
+ <ul>
+   <li> It is a data format encoding a list of orbital elements of an Earth-orbiting object for a given point in time, the epoch. </li>
+   <li>Stands for Two Line Element set</li>
+   <li>We can confidently identify and contact the satellite after launch </li>
+   <li>Steps involved-</li>
+   <ul>
+     <li>Open Ubuntu->Install the necessary packages like skyfield and spg4->Write the code->Compile it-</li>
+     <li>Enter the details of the satellite from https://api.tinygs.com/v1/tinygs_supported.txt->Enter the time,date->The output shows the longitude and the latitude</li>
+   </ul>
+ </ul>
 # 💻LAB 
 ## Introduction to ESPN32 Board
 <ul>
@@ -623,11 +634,67 @@ void loop() {
 
 ```
 
-## TLE
-<ul>
-  <li>A two-line element set (TLE) is a standardized format used to describe the orbit of a satellite.</li>
-  <li>It encodes a list of orbital elements for an Earth-orbiting object at a specific point in time, known as the epoch.</li>
-</ul>
+ ## TLE
+ <ul>
+   <li> It is a data format encoding a list of orbital elements of an Earth-orbiting object for a given point in time, the epoch. </li>
+   <li>Stands for Two Line Element set</li>
+   <li>We can confidently identify and contact the satellite after launch </li>
+   <li>Steps involved-</li>
+   <ul>
+     <li>Open Ubuntu->Install the necessary packages like skyfield and spg4->Write the code->Compile it-</li>
+     <li>Enter the details of the satellite from https://api.tinygs.com/v1/tinygs_supported.txt->Enter the time,date->The output shows the longitude and the latitude</li>
+   </ul>
+ </ul>
+
+```python
+from skyfield.api import EarthSatellite, load
+from datetime import datetime
+import time
+
+# TLE data for TIANQI-23
+line1 = "1 57794U 23135C   24191.17867052  .00000153  00000-0  13906-3 0  9990"
+line2 = "2 57794  49.9722 250.0486 0014476 308.5089  51.4524 14.22335697 43827"
+
+# Load TLE data into a satellite object
+satellite = EarthSatellite(line1, line2, name='TIANQI-23')
+
+# Load timescale
+ts = load.timescale()
+
+while True:
+    try:
+        # Get current UTC time
+        now = datetime.utcnow()
+
+        # Compute satellite position at the current time
+        t = ts.utc(now.year, now.month, now.day, now.hour, now.minute, now.second + now.microsecond / 1e6)
+        position = satellite.at(t)
+
+        # Get GeographicPosition object
+        geo_position = position.subpoint()
+
+        # Extract latitude, longitude, and altitude in degrees and kilometers
+        latitude = geo_position.latitude.degrees
+        longitude = geo_position.longitude.degrees
+
+        print(f"Latitude, Longitude: {latitude}, {longitude}")
+
+        # Calculate altitude (height above Earth's surface)
+        distance_from_earth_center = position.distance().km
+        radius_of_earth = 6371.0  # Radius of the Earth in kilometers
+        altitude = distance_from_earth_center - radius_of_earth
+
+        print(f"Altitude: {altitude} km")
+
+        # Delay for a while before fetching the next position
+        time.sleep(10)  # Fetch position every 10 seconds (adjust as needed)
+
+    except KeyboardInterrupt:
+        print("\nTerminated by user.")
+        break
+    except Exception as e:
+        print(f"Error occurred: {e}")
+```
 
 
 
