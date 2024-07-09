@@ -157,7 +157,7 @@ Repository for Summer Internship 2024- **"Introduction to CubeSat and Satellite 
  ## Inside Cubesat 💻
  
  <ul>
-   <li>Refer to CUBESAT.docx</li>
+   <li>Refer to https://github.com/ApurbaMohanty12/SI-2024-CubeSat-SU/blob/main/CUBESAT.docx</li>
  </ul>
 
  ## Capacitors
