@@ -19,7 +19,10 @@ Repository for Summer Internship 2024- **"Introduction to CubeSat and Satellite 
   <li>Figure-CubeSat:(https://github.com/ApurbaMohanty12/SI-2024-CubeSat-SU/assets/173773194/8032d388-62eb-457e-a9da-668ef8fb441c)</li>
 </ul>
 
-### CLSI
+### CLSI![Basic Blinking]
+
+![Basic Blinking](https://github.com/ApurbaMohanty12/SI-2024-CubeSat-SU/assets/173773194/ba5c5fe2-7926-4479-bcf7-f84ed7bf0e27)
+
 <ul>
   <li>It stands for CubeSat Launch Initiative.</li>
   <li>It is a NASA initiative that provides oppurtunities for qualified CubeSats to fly as auxiliary payloads on future launches that have excess capacity.</li>
