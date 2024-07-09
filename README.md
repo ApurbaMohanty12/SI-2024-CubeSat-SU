@@ -17,7 +17,8 @@ Repository for Summer Internship 2024- **"Introduction to CubeSat and Satellite 
   <li>It can help reduce the costs of techical development and scientific investigations,and increase accrss to space,an exponential growth in the popularity of CubeSats.</li>
   
 </ul>
-![CubeSats](https://github.com/ApurbaMohanty12/SI-2024-CubeSat-SU/assets/173773194/c675c54d-9d8c-45c9-ac6d-aceab5381416)
+
+![CubeSat_splash](https://github.com/ApurbaMohanty12/SI-2024-CubeSat-SU/assets/173773194/e5facb18-4c91-4ff2-82b8-ac2d5198841a)
 
 ### CLSI
 
@@ -259,6 +260,8 @@ void loop() {
 ```
 </ul>
 
+![WhatsApp Image 2024-07-09 at 22 24 17](https://github.com/ApurbaMohanty12/SI-2024-CubeSat-SU/assets/173773194/cf5eb349-f57e-4c5d-b9a6-a21f60fd173b)
+
 
 ## Serial Monitor Blinking of LED 💡
 
@@ -288,6 +291,13 @@ void loop() {
   }
 }
 ```
+
+## PWM
+<ul>
+  <li>Stands for Pulse Width Modulation.</li>
+  <li>It is any method of representing a signal as a rectangular wave with a varying duty cycle</li>
+  <li>It is useful for controlling the average power or amplitude delivered by an electrical signal</li>
+</ul>
 
 ## Fading Off LED💡
 ```python
@@ -320,6 +330,10 @@ void loop() {
 
 }
 ```
+![WhatsApp Image 2024-07-09 at 22 25 37](https://github.com/ApurbaMohanty12/SI-2024-CubeSat-SU/assets/173773194/558a549c-ceb2-4af4-8cba-2433a575dca0)
+
+![WhatsApp Image 2024-07-09 at 22 36 42](https://github.com/ApurbaMohanty12/SI-2024-CubeSat-SU/assets/173773194/a1e9ac8f-eea1-4d7b-bc5c-21ec5d37333e)
+
 ##  I2C & OLED 📱
 <ul>
   <li>OLED stands for Oganic Light Emitting Diode.</li>
@@ -366,6 +380,8 @@ void loop() {
 
 }
 ```
+
+![WhatsApp Image 2024-07-09 at 22 27 13](https://github.com/ApurbaMohanty12/SI-2024-CubeSat-SU/assets/173773194/3d6e7335-6186-4320-b0bd-57c82c5e681d)
 
 
 ## OLED with scrolling 📱
@@ -419,6 +435,9 @@ void loop() {
 }
 
 ```
+
+![WhatsApp Image 2024-07-09 at 22 28 42](https://github.com/ApurbaMohanty12/SI-2024-CubeSat-SU/assets/173773194/5758c0c0-81a9-412f-bd73-a4bd5002ee58)
+
 ## DHT11
 <ul>
   <li>It is a common temperature and humidity sensor</li>
@@ -512,14 +531,19 @@ display.setTextColor(SSD1306_BLACK,SSD1306_WHITE);
 display.setCursor(0,35);
 display.print("HUMIDITY");
 display.setTextSize(2);
+
 display.setTextColor(SSD1306_BLACK,SSD1306_WHITE);
 display.setCursor(0,45);
 display.print(humi);
 display.print(" %");
 
+
 display.display();
 }
 ```
+
+
+![WhatsApp Image 2024-07-09 at 22 30 03](https://github.com/ApurbaMohanty12/SI-2024-CubeSat-SU/assets/173773194/c47d40ec-0e65-4354-b9c6-8b4f6056f500)
 
 ## LoRa Technology💻
 <ul>
@@ -529,6 +553,8 @@ display.display();
   <li>LoRa sensors have a wide range of compatibilities, allowing you to connect them with various machines, devices and even animals and people.</li>
   
 </ul>
+![2500100-40](https://github.com/ApurbaMohanty12/SI-2024-CubeSat-SU/assets/173773194/5fa595e1-aecc-43f5-9db4-2527dd588efb)
+
 
 ## Raspberry Pi 💻
 <ul>
@@ -538,12 +564,10 @@ display.display();
   <li>It is used to control electronic components for physical computing and explore the Internet of Things (IoT).</li>
 </ul>
 
-## PWM
-<ul>
-  <li>Stands for Pulse Width Modulation.</li>
-  <li>It is any method of representing a signal as a rectangular wave with a varying duty cycle</li>
-  <li>It is useful for controlling the average power or amplitude delivered by an electrical signal</li>
-</ul>
+
+![rpi-zero](https://github.com/ApurbaMohanty12/SI-2024-CubeSat-SU/assets/173773194/8dd95b5e-2e18-4b0c-96fe-04732260f344)
+
+
 
 ## LoRa Sender Protocol📡
 ```python
@@ -584,6 +608,8 @@ void loop() {
 
 }
 ```
+![WhatsApp Image 2024-07-09 at 22 38 37](https://github.com/ApurbaMohanty12/SI-2024-CubeSat-SU/assets/173773194/8701c225-4e79-41eb-8a7e-467105845d7d)
+
 ## LoRa Receiver Protocol 📡
 ```python
 #include<SPI.h>
