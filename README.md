@@ -150,8 +150,7 @@ Repository for Summer Internship 2024- **"Introduction to CubeSat and Satellite 
  ## Payloads 🗃️
  <ul>
    <li>It is the technological instrument carried on board a satellite for a specific task.</li>
-   <li>The payload can vary greatly depending on the purpose of the satellite, and it defines the satellite's capabilities and the type of data or services it can provide.</li>
-   <li>Figure-(https://github.com/ApurbaMohanty12/SI-2024-CubeSat-SU/assets/173773194/f33b37a0-4712-4ed8-8835-c58b3e6aabe5)</li>
+   <li>The payload can vary greatly depending on the purpose of the satellite, and it defines the satellite's capabilities and the type of data or services it can provide.</li>   
    <li>The minimal payload consists of-</li>
    <ul>
      <li>Antenna</li>
@@ -181,8 +180,22 @@ Repository for Summer Internship 2024- **"Introduction to CubeSat and Satellite 
   
 </ul>
 
+# Basics of Satellite Communication 🔊
+## Introduction to Communication and Signal Processing 🔊
 
-  
+  ### MODULATED TECHNIQUES FOR MOBILE RADIO
+  <ul>
+<li>	Modulation is the process of encoding information from a message source in a manner suitable for transmission.</li>
+<li>	It generally involves translating a base band signal (called a source) to a band pass signal at frequencies that are very high when compared to the base-band frequencies.</li>
+<li>The band pass signal is called the modulated signal and the base band signal is called the modulating signal.</li>
+<li>	Modulation may be done by varying amplitude, phase or frequency of a high frequency carrier in accordance with the amplitude of the message signal.</li>
+<li>	Demodulation is the process of extracting the baseband message from the carrier so that it may be processed and interpreted by the intended receiver (the sink).</li>
+
+
+</ul>
+
+  ![WhatsApp Image 2024-07-10 at 14 22 51 (1)](https://github.com/ApurbaMohanty12/SI-2024-CubeSat-SU/assets/173773194/03caf652-1751-47e9-afc9-0f8195e745f1)
+
 # 💻LAB 
 ## Introduction to ESPN32 Board
 <ul>
