@@ -196,6 +196,29 @@ Repository for Summer Internship 2024- **"Introduction to CubeSat and Satellite 
 
   ![WhatsApp Image 2024-07-10 at 14 22 51 (1)](https://github.com/ApurbaMohanty12/SI-2024-CubeSat-SU/assets/173773194/03caf652-1751-47e9-afc9-0f8195e745f1)
 
+  ### DIGITAL MODULATION
+  <ul>
+    <li>It is the process of encoding a digital information signal into the amplitude, phase, or frequency of the transmitted signal.</li>
+    <li>Digital Modulation provides more information capacity, high data security, quicker system availability with great quality communication. Hence, digital modulation techniques have a greater demand, for their capacity to convey larger amounts of data than analog modulation techniques.</li>
+<li>	Modern mobile communication systems use digital modulation techniques. Advancements in VLSI and DSP technology have made digital modulation more cost effective than analog transmissions systems.</li>
+<li>This offers many advantages over analog transmissions like greater noise immunity, robustness to channel impairments, easdier multiplexing of various forms of information(like voice, data, video, etc) and greater security.</li>
+<li>It accommodated digital error control codes which detect and /or correct transmission errors, and support complex signal conditioning and processing techniques such as source coding , encryption and equalization to improve the performance of the overall communication link.</li>
+<li>	Here, the modulating signal maybe represented as a time sequence of symbols or pulses, where each symbol have m infinite states. Each symbol represents n bits where 
+n=log2m bits/symbol.</li>
+<li>There are many types of digital modulation techniques</li>
+<ul>
+  <li>ASK-Amplitude Shift Key </li>
+  <li>FSK-Frequency Shift Key</li>
+  <li>PSK-Phase Shift Key</li>
+</ul>
+    
+  </ul>
+  
+
+![Classification-of-Digital-Modulation](https://github.com/ApurbaMohanty12/SI-2024-CubeSat-SU/assets/173773194/9931b51a-f4cd-4729-a4c2-348c041f67c8)
+
+![0_csn68qlEbjez5CPE](https://github.com/ApurbaMohanty12/SI-2024-CubeSat-SU/assets/173773194/131ccaa6-1c1d-4856-ab78-b20bf85da3f6)
+
 # 💻LAB 
 ## Introduction to ESPN32 Board
 <ul>
