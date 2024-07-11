@@ -213,6 +213,21 @@ n=log2m bits/symbol.</li>
 ![FFT-Time-Frequency-View-540](https://github.com/ApurbaMohanty12/SI-2024-CubeSat-SU/assets/173773194/d438c442-76b5-45f0-a8c5-df129472238c)
 
 ## SpreadSpectrum 📑
+<ul>
+  <li>  These are techniques by which a signal generated with a particular bandwidth is deliberately spread in the frequency domain over a wider frequency band.</li>
+  <li> It is one in which the transmitted signal is spread over a wide frequency band, much wider than the bandwidth required to transmit the message.</li>
+  <li>Such a system would take a baseband voice signal with a bandwidth of a few kilohertz and spread it to a band of many megahertz.</li>
+  <li>It protects the message signal from interference, environmental noise,8cm jamming. It also ensures secure communication and reduces the probability of signal detection.</li>
+  
+  ![WhatsApp Image 2024-07-12 at 00 55 24](https://github.com/user-attachments/assets/d53a3457-78d2-4768-8eaf-185c73cb5568)
+<li>Spreading factor is what determines the speed of a chirp. </li>
+<li>Spreading factor is what determines the speed of a chirp. The speed of a single chirp equals approximately 2^SF.</li>
+
+</ul>
+![WhatsApp Image 2024-07-12 at 00 57 01](https://github.com/user-attachments/assets/f78da207-f70a-414f-af6f-f6266aa3fb77)
+
+
+![WhatsApp Image 2024-07-12 at 00 59 39](https://github.com/user-attachments/assets/f8919095-3944-4cc1-8e60-9fc526670218)
 
 ## VLSI 🪛
 <ul>
