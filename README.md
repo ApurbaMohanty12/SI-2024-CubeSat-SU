@@ -230,8 +230,10 @@ n=log2m bits/symbol.</li>
   
 </ul>
 </ul>
-![FFT-Smearing-540](https://github.com/ApurbaMohanty12/SI-2024-CubeSat-SU/assets/173773194/7d41c1e5-3cad-4d81-af17-c14ab7fb163c)
-![FFT-Time-Frequency-View-540](https://github.com/ApurbaMohanty12/SI-2024-CubeSat-SU/assets/173773194/386716ba-0195-4acb-9126-8734163773c6)
+
+![FFT-Smearing-540](https://github.com/ApurbaMohanty12/SI-2024-CubeSat-SU/assets/173773194/a9aaba65-7e24-4eba-a940-6894185e113e)
+
+![FFT-Time-Frequency-View-540](https://github.com/ApurbaMohanty12/SI-2024-CubeSat-SU/assets/173773194/d438c442-76b5-45f0-a8c5-df129472238c)
 
 # 💻LAB 
 ## Introduction to Arduino
