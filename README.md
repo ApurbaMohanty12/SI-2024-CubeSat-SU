@@ -234,7 +234,9 @@ n=log2m bits/symbol.</li>
 ![FFT-Smearing-540](https://github.com/ApurbaMohanty12/SI-2024-CubeSat-SU/assets/173773194/a9aaba65-7e24-4eba-a940-6894185e113e)
 
 ![FFT-Time-Frequency-View-540](https://github.com/ApurbaMohanty12/SI-2024-CubeSat-SU/assets/173773194/d438c442-76b5-45f0-a8c5-df129472238c)
-
+## VLSI 🪛
+<ul>
+  <li>Refer to VLSI.docx</li>
 # 💻LAB 
 ## Introduction to Arduino
 <ul>
