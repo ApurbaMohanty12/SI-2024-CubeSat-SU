@@ -218,8 +218,30 @@ n=log2m bits/symbol.</li>
 ![Classification-of-Digital-Modulation](https://github.com/ApurbaMohanty12/SI-2024-CubeSat-SU/assets/173773194/9931b51a-f4cd-4729-a4c2-348c041f67c8)
 
 ![0_csn68qlEbjez5CPE](https://github.com/ApurbaMohanty12/SI-2024-CubeSat-SU/assets/173773194/131ccaa6-1c1d-4856-ab78-b20bf85da3f6)
+## FFT
+<ul>
+  <li>Stands for Fast Fourier Transformation</li>
+  <li>It is an important measurement method in the science of audio and acoustics measurement. It converts a signal into individual spectral components and thereby provides frequency information about the signal. </li>
+  <li>In the Fourier transformation, the assumption is that the sampled signal segment is repeated periodically for an infinite period of time. This brings two conclusions:
+<ul>
+<li>The FFT is only suitable for periodic signals.</li>
+<li>The sampled signal segment must contain a whole number of periods.</li>
+  <li>. The sampling of a signal whose frequencies are not an integer multiple of df would begin and end within a block of 2^n samples with different values. This results in a jump in the time signal, and a "smeared" FFT spectrum.</li>
+  
+</ul>
+</ul>
+![FFT-Smearing-540](https://github.com/ApurbaMohanty12/SI-2024-CubeSat-SU/assets/173773194/7d41c1e5-3cad-4d81-af17-c14ab7fb163c)
 
 # 💻LAB 
+## Introduction to Arduino
+<ul>
+  <li>Arduino is an open-source electronics platform based on easy-to-use hardware and software.</li>
+  <li>Arduino boards are able to read inputs - light on a sensor, a finger on a button, or a Twitter message - and turn it into an output - activating a motor, turning on an LED, publishing something online.</li>
+  <li> It runs on Mac, Windows, and Linux.</li>
+  <li>Arduino is an open-source platform used for building electronics projects. Arduino consists of both a physical programmable circuit board (often referred to as a microcontroller) and a piece of software, or IDE (Integrated Development Environment) that runs on your computer, used to write and upload computer code to the physical board.</li>
+</ul>
+
+
 ## Introduction to ESPN32 Board
 <ul>
   <li>Introduction to ESPN32 Board by Prof Prasanta Swain Sir.
