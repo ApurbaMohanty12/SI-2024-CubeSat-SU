@@ -900,21 +900,340 @@ while True:
 •	Plot it with proper annonation and axis labelling.
 •	Compute the FFT of the above signal and plot it.
 </li>
+
+  ```python
+#!/usr/bin/env python3
+
+import numpy as np
+import matplotlib.pyplot as plt
+from scipy.fft import fft, fftfreq
+## For saving plots to a file. Just couldn't get it to work from commandline
+import matplotlib
+matplotlib.use('Agg')
+
+# Parameters
+fc = 2e6        # Carrier Frequency
+#fc2 = 2e6        # Carrier Frequency
+fs = 256*4e6    # Sampling frequency
+ncycl = 32          # No of cycles of fc 
+Tsim = ncycl/fc       # Total Simulation time
+t = np.arange(0, Tsim, 1/fs)  # Time vector
+
+# Carrier signal
+carrier = np.cos(2 * np.pi * fc * t)
+#carrier2 = np.cos(2 * np.pi * fc2 * t)
+#carrier = carrier + carrier2
+
+#FFT
+N = len(carrier)
+yf = fft(carrier)
+xf = fftfreq(N, 1/fs)
+
+#Plotting 
+fig, axs = plt.subplots(2, 1)
+
+axs[0].plot(t, carrier)
+axs[0].set_title('4MHz Signal')
+axs[0].set_xlim([0, Tsim])
+#axs[0].set_ylim([-1.2, 1.2])
+#
+axs[1].plot(xf,np.abs(yf))
+axs[1].set_title('FFT')
+axs[1].set_xlim([0, 2*fc])
+#axs[1].set_ylim([-1.2, 1.2])
+
+#plt.figure(figsize=(8,11))
+plt.show();
+plt.savefig("fft.png")
+
+# Plot 
+#fig, axs = plt.subplots(2, 1)
+#plt.figure(1)
+#plt.clf()
+#plt.plot(t,carrier)
+#plt.grid()
+#plt.show()
+#plt.savefig("carrier.png")
+#
+#plt.clf()
+#plt.plot(xf,np.abs(yf))
+#plt.xlim([0, 2*fc])
+#plt.savefig("fft.png")
+```
+
+![Q1](https://github.com/user-attachments/assets/fd258953-e371-426e-9552-31d5ce4a8750)
+
 <li>QUES2-
 •	Create another a signal of frequency 3MHz, add it to above signal and do FFT for the resultant signal.
 •	Change the code such that the modulation frequency for 1 is 4MHz and for 0 it is 3MHz.
 •	Change the above code to simulate ASK modulation.
 </li>
+
+```python
+#!/usr/bin/env python3
+
+import numpy as np
+import matplotlib.pyplot as plt
+from scipy.fft import fft, fftfreq
+## For saving plots to a file. Just couldn't get it to work from commandline
+import matplotlib
+matplotlib.use('Agg')
+
+# Parameters
+fc = 3e6        # Carrier Frequency
+#fc2 = 2e6        # Carrier Frequency
+fs = 256*3e6    # Sampling frequency
+ncycl = 32          # No of cycles of fc 
+Tsim = ncycl/fc       # Total Simulation time
+t = np.arange(0, Tsim, 1/fs)  # Time vector
+
+# Carrier signal
+carrier = np.cos(2 * np.pi * fc * t)
+#carrier2 = np.cos(2 * np.pi * fc2 * t)
+#carrier = carrier + carrier2
+
+#FFT
+N = len(carrier)
+yf = fft(carrier)
+xf = fftfreq(N, 1/fs)
+
+#Plotting 
+fig, axs = plt.subplots(2, 1)
+
+axs[0].plot(t, carrier)
+axs[0].set_title('4MHz Signal')
+axs[0].set_xlim([0, Tsim])
+#axs[0].set_ylim([-1.2, 1.2])
+#
+axs[1].plot(xf,np.abs(yf))
+axs[1].set_title('FFT')
+axs[1].set_xlim([0, 2*fc])
+#axs[1].set_ylim([-1.2, 1.2])
+
+#plt.figure(figsize=(8,11))
+plt.show();
+plt.savefig("fft1.png")
+
+# Plot 
+#fig, axs = plt.subplots(2, 1)
+#plt.figure(1)
+#plt.clf()
+#plt.plot(t,carrier)
+#plt.grid()
+#plt.show()
+#plt.savefig("carrier.png")
+#
+#plt.clf()
+#plt.plot(xf,np.abs(yf))
+#plt.xlim([0, 2*fc])
+#plt.savefig("fft.png")
+```
+![Q2](https://github.com/user-attachments/assets/71e373fc-2aa2-4f4c-b89d-b0a6afbe7369)
+
+
 <li>Ques3-
 •	Add demodulation to the above code and plot the time-domain waveform, as well as the FFT of the demodulated signal.
 •	Add a moving average filter to remove the high-frequency component from the demodulated signal.
 </li>
+
+```python
+#!/usr/bin/env python3
+
+import numpy as np
+import matplotlib.pyplot as plt
+from scipy.fft import fft, fftfreq
+## For saving plots to a file. Just couldn't get it to work from commandline
+import matplotlib
+matplotlib.use('Agg')
+
+# Parameters
+fc0 = 4e6        # 1 Carrier Frequency
+fc1 = 3e6        # 0 Carrier Frequency
+fs = 256*4e6    # Sampling frequency
+ncycl = 512          # No of cycles of fc 
+nfc0 = 8        # number of fc0 cycles for one symbol
+Tsim = ncycl/fc0       # Total Simulation time
+t = np.arange(0, Tsim, 1/fs)  # Time vector
+
+# Message signal (binary data)
+data = np.random.randint(0, 2, int(ncycl/nfc0))  # Random binary data
+nupData = int(t.size/data.size) 
+data = np.repeat(data, nupData)  # Upsample binary data
+
+print(data.size, t.size)
+
+# FSK Modulation
+modulated_signal = np.zeros_like(t)
+for i in range(len(t)):
+    if data[i] == 0:
+        modulated_signal[i] = np.cos(2 * np.pi * fc0 * t[i])
+    else:
+        modulated_signal[i] = np.cos(2 * np.pi * fc1 * t[i])
+
+# FFT of the modulated signal
+N = len(modulated_signal)
+yf = fft(modulated_signal)
+xf = fftfreq(N, 1 / fs)
+
+# Plotting
+fig, axs = plt.subplots(3, 1, figsize=(10, 12))
+
+axs[0].plot(t, data)
+axs[0].set_title('Original Binary Data')
+axs[0].set_xlim([0, Tsim])
+#axs[0].set_ylim([-0.2, 1.2])
+
+```
+
+![Q3](https://github.com/user-attachments/assets/d037673a-c32e-4dc7-b131-90acb89a5785)
+
   <li>QUES4-
 •	Add demodulation to the above code and plot the time-domain waveform, as well as the FFT of the demodulated signal.
 •	Add a moving average filter to remove the high-frequency component from the demodulated signal.
   </li>
+
+  ```python
+import numpy as np
+import matplotlib.pyplot as plt
+from scipy.signal import butter, filtfilt
+
+# Generate a sample AM signal
+fs = 1000  # Sampling frequency
+t = np.arange(0, 1.0, 1.0/fs)  # Time vector
+
+carrier_freq = 100  # Carrier frequency in Hz
+mod_freq = 5  # Modulating frequency in Hz
+mod_index = 0.5  # Modulation index
+
+carrier = np.cos(2 * np.pi * carrier_freq * t)
+modulating_signal = 1 + mod_index * np.cos(2 * np.pi * mod_freq * t)
+am_signal = carrier * modulating_signal
+
+# Demodulation (envelope detection)
+demodulated_signal = np.abs(am_signal)
+
+# Low-pass RC filter design using butterworth filter
+def rc_low_pass_filter(data, cutoff, fs, order=5):
+    nyquist = 0.5 * fs
+    normal_cutoff = cutoff / nyquist
+    b, a = butter(order, normal_cutoff, btype='low', analog=False)
+    y = filtfilt(b, a, data)
+    return y
+
+cutoff_freq = 10  # Cutoff frequency of the RC filter in Hz
+filtered_signal = rc_low_pass_filter(demodulated_signal, cutoff_freq, fs)
+
+# Plot the results
+plt.figure(figsize=(12, 8))
+
+plt.subplot(4, 1, 1)
+plt.plot(t, modulating_signal)
+plt.title('Modulating Signal')
+plt.xlabel('Time [s]')
+plt.ylabel('Amplitude')
+
+plt.subplot(4, 1, 2)
+plt.plot(t, carrier)
+plt.title('Carrier Signal')
+plt.xlabel('Time [s]')
+plt.ylabel('Amplitude')
+
+plt.subplot(4, 1, 3)
+plt.plot(t, am_signal)
+plt.title('AM Signal')
+plt.xlabel('Time [s]')
+plt.ylabel('Amplitude')
+
+plt.subplot(4, 1, 4)
+plt.plot(t, demodulated_signal, label='Demodulated Signal')
+plt.plot(t, filtered_signal, label='Filtered Signal')
+plt.title('Demodulated and Filtered Signal')
+plt.xlabel('Time [s]')
+plt.ylabel('Amplitude')
+plt.legend()
+
+plt.tight_layout()
+
+# Save the plot as a PNG file
+plt.savefig('demodulated_and_filtered_signal.png')
+
+# Display the plot (optional)
+# plt.show()
+```
+
+![Q4](https://github.com/user-attachments/assets/3258d90e-e995-457a-9a96-5b4093817c2e)
+
 <li>QUES5-
 •	Draw the spread-spectrum of the signal and also draw its FFT.</li>
+```python
+import numpy as np
+import matplotlib.pyplot as plt
+
+# Function to generate a pseudo-random noise (PN) sequence
+def generate_pn_sequence(length, seed=0):
+    np.random.seed(seed)
+    return np.random.choice([1, -1], size=length)
+
+# Function to modulate the message using DSSS
+def dsss_modulate(message, pn_sequence):
+    return message * pn_sequence
+
+# Function to demodulate the DSSS signal
+def dsss_demodulate(dsss_signal, pn_sequence):
+    return dsss_signal * pn_sequence
+
+# Generate a sample message signal
+message_length = 100
+message = np.random.choice([1, -1], size=message_length)
+
+# Generate a PN sequence
+pn_sequence = generate_pn_sequence(message_length, seed=42)
+
+# Modulate the message using DSSS
+dsss_signal = dsss_modulate(message, pn_sequence)
+
+# Demodulate the DSSS signal
+demodulated_signal = dsss_demodulate(dsss_signal, pn_sequence)
+
+# Plot the original message, PN sequence, DSSS signal, and demodulated signal
+plt.figure(figsize=(12, 8))
+
+plt.subplot(4, 1, 1)
+plt.stem(message)
+plt.title('Original Message')
+
+plt.subplot(4, 1, 2)
+plt.stem(pn_sequence)
+plt.title('PN Sequence')
+
+plt.subplot(4, 1, 3)
+plt.stem(dsss_signal)
+plt.title('DSSS Signal')
+
+plt.subplot(4, 1, 4)
+plt.stem(demodulated_signal)
+plt.title('Demodulated Signal')
+
+plt.tight_layout()
+
+# Save the figure as an image file
+plt.savefig('dsss_signal.png')
+
+# Display the plot
+plt.show()
+
+# Verify that the demodulated signal matches the original message
+print("Original Message:    ", message)
+print("Demodulated Signal: ", demodulated_signal)
+
+```
+
+
+
+
+![Q5](https://github.com/user-attachments/assets/6c5d2a92-2216-4dd0-a2bc-e45ec5b3f27b)
+</ul>
+
 
 
 
