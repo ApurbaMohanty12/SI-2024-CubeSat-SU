@@ -337,17 +337,79 @@ An analog front-end (AFE or analog front-end controller AFEC) is a set of analog
 
 
 # Antennas 📡
+## Radiation 🌬️
 <ul>
-  <li></li>
+  
+  <li>Radiation is energy that moves from one place to another in a form that can be described as waves or particles.</li>
+  <li>It happens due to acceleration or deacceleration of charge.</li>
+  
+  
+  ![WhatsApp Image 2024-07-13 at 00 49 35](https://github.com/user-attachments/assets/5586ddb0-7a7a-4858-af48-c47bd50f0fba)
+
+
+  ![WhatsApp Image 2024-07-13 at 00 54 00](https://github.com/user-attachments/assets/dc898e17-a66b-4bd9-bd21-9a2217627e94)
+
+  
+
+
+</ul>
+
+## Polarization 💡
+<ul>
+  <li>Polarization is a property of transverse waves which specifies the geometrical orientation of the oscillations.</li>
+  <li>In a transverse wave, the direction of the oscillation is perpendicular to the direction of motion of the wave.</li>
+  
+</ul>
+
+
+![WhatsApp Image 2024-07-13 at 01 06 54](https://github.com/user-attachments/assets/6e617509-658a-486a-a4c0-b7c4082b3dff)
+
+## Antenna 📡
+<ul>
+  <li> Antennas are used to transmit and receive nonionizing EM fields, which include radio waves, microwaves, infrared radiation (IR) and visible light.</li>
+  
+
+
+![2023_03_MicrosoftTeams-image-348](https://github.com/user-attachments/assets/f47efc55-bbdc-400f-9647-76699e48884f)
+
+<li>Types of Antenna</li>
+<ul>
+  <li>Wire Antenna</li>
+  <li>Aperture Antenna</li>
+  <li>Patch Antenna</li>
+  <li>Array Antenna</li>
+  <li>Reflector Antenna</li>
+  <li>Deployable CubeSat Antenna</li>
 </ul>
 
 
 
+![WhatsApp Image 2024-07-13 at 01 17 36](https://github.com/user-attachments/assets/c15ec7d1-56c9-4524-bcc6-362f5bbf8809)
+
+
+![WhatsApp Image 2024-07-13 at 01 18 50](https://github.com/user-attachments/assets/4a79d8c6-6c13-4d55-acae-c67c8e55c7fb)
+
+
+![WhatsApp Image 2024-07-13 at 01 22 54](https://github.com/user-attachments/assets/40dd5ce5-f2e7-4483-89eb-18730e51521b)
 
 
 
 
-  
+### VSWR
+
+
+<ul>
+  <li>Stands for Voltage Standing wave Ratio</li>
+  <li> is a measure of how efficiently radio-frequency power is transmitted from a power source,into a load</li>
+  <li>VSWR = (1+|Γ|)/(1-|Γ|).</li>
+  <li>Ideally, VSWR =1 but realistically it is < 2.</li>
+</ul>
+    
+#### Standing Wave
+It is a combination of two waves moving in opposite directions, each having the same amplitude and frequency.
+
+  ![maxresdefault](https://github.com/user-attachments/assets/35c4d593-cdbc-4c4f-8b22-99970b9bde02)
+
 # 💻LAB 
 ## Introduction to Arduino
 <ul>
@@ -909,18 +971,19 @@ while True:
 <ul>
   <li>A dipole antenna is an antenna with a center-fed driven element for transmitting or receiving radio frequency energy.</li>
   <li>Download 4nec2 app from https://www.qsl.net/4nec2/ and try out some preloaded examples.</li>
-  <li>Example-1)Straight Dipole</li>
+ 
+  ### Example-1)Straight Dipole
 
 
 ![Screenshot 2024-07-12 224121](https://github.com/user-attachments/assets/466a6666-db47-48af-9300-d4628a51ef02)
 
-<li>Example-2)Straight Dipole with 433MHz</li>
+### Example-2)Straight Dipole with 433MHz</li>
 
 
 
 ![lala](https://github.com/user-attachments/assets/5990d28e-5266-4ea9-88e9-50855454109a)
 
-<li>Example-3) V-Dipole</li>
+### Example-3) V-Dipole
 
 
 
