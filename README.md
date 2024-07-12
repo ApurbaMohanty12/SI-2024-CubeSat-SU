@@ -820,6 +820,10 @@ while True:
         print(f"Error occurred: {e}")
 ```
 
+# EXERCISES
+## LAB EXERCISE-1
+
+
 
 
 
