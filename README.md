@@ -323,6 +323,8 @@ An analog front-end (AFE or analog front-end controller AFEC) is a set of analog
   ![download](https://github.com/user-attachments/assets/0a9e7059-bf6c-483c-a83e-602029d72fee)
   <li> It is used to facilitate short-distance communication between a microcontroller and one or more peripheral integrated circuits (ICs).</li>
 
+  ![WhatsApp Image 2024-07-12 at 15 47 59](https://github.com/user-attachments/assets/d5ba9305-51cd-4226-832e-3104defc6dec)
+
   ## Electromagnetic Waves 
   <ul>
     <li>Refer to https://github.com/ApurbaMohanty12/SI-2024-CubeSat-SU/blob/main/ELECTROMAGNETIC%20WAVES.docx</li>
