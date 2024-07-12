@@ -1163,39 +1163,39 @@ plt.savefig('demodulated_and_filtered_signal.png')
 
 ![Q4](https://github.com/user-attachments/assets/3258d90e-e995-457a-9a96-5b4093817c2e)
 
-<li>QUES5-
-•	Draw the spread-spectrum of the signal and also draw its FFT.</li>
+<li>QUES5-Draw the spread-spectrum of the signal and also draw its FFT.</li>
+
+
+
 ```python
 import numpy as np
 import matplotlib.pyplot as plt
 
-# Function to generate a pseudo-random noise (PN) sequence
+
 def generate_pn_sequence(length, seed=0):
     np.random.seed(seed)
     return np.random.choice([1, -1], size=length)
 
-# Function to modulate the message using DSSS
+
 def dsss_modulate(message, pn_sequence):
     return message * pn_sequence
 
-# Function to demodulate the DSSS signal
+#Function to demodulate the DSSS signal
 def dsss_demodulate(dsss_signal, pn_sequence):
     return dsss_signal * pn_sequence
 
-# Generate a sample message signal
+#Generate a sample message signal
 message_length = 100
 message = np.random.choice([1, -1], size=message_length)
 
-# Generate a PN sequence
+#Generate a PN sequence
 pn_sequence = generate_pn_sequence(message_length, seed=42)
 
-# Modulate the message using DSSS
+#Modulate the message using DSSS
 dsss_signal = dsss_modulate(message, pn_sequence)
 
-# Demodulate the DSSS signal
 demodulated_signal = dsss_demodulate(dsss_signal, pn_sequence)
 
-# Plot the original message, PN sequence, DSSS signal, and demodulated signal
 plt.figure(figsize=(12, 8))
 
 plt.subplot(4, 1, 1)
@@ -1216,23 +1216,23 @@ plt.title('Demodulated Signal')
 
 plt.tight_layout()
 
-# Save the figure as an image file
+
 plt.savefig('dsss_signal.png')
 
-# Display the plot
+#Display the plot
 plt.show()
 
-# Verify that the demodulated signal matches the original message
+
 print("Original Message:    ", message)
 print("Demodulated Signal: ", demodulated_signal)
 
 ```
 
 
+![Q5](https://github.com/user-attachments/assets/b99ac8c4-bc36-4461-824b-01c06bd64f83)
 
-
-![Q5](https://github.com/user-attachments/assets/6c5d2a92-2216-4dd0-a2bc-e45ec5b3f27b)
 </ul>
+
 
 
 
