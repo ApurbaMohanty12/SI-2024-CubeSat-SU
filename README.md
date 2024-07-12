@@ -224,6 +224,7 @@ n=log2m bits/symbol.</li>
 <li>Spreading factor is what determines the speed of a chirp. The speed of a single chirp equals approximately 2^SF.</li>
 
 </ul>
+
 ![WhatsApp Image 2024-07-12 at 00 57 01](https://github.com/user-attachments/assets/f78da207-f70a-414f-af6f-f6266aa3fb77)
 
 
