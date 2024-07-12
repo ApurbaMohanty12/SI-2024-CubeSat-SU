@@ -258,6 +258,10 @@ An analog front-end (AFE or analog front-end controller AFEC) is a set of analog
 
 ![WhatsApp Image 2024-07-11 at 11 20 37 (1)](https://github.com/user-attachments/assets/519e26f4-1e43-4db7-a670-53d1132cb06c)
 
+
+
+
+
   
 # 💻LAB 
 ## Introduction to Arduino
