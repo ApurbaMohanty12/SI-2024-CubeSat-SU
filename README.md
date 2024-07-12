@@ -892,6 +892,39 @@ while True:
 ```
 
 # EXERCISES
+
+## LAB EXERCISE-1
+## ASSIGNMENT-1 QUESTIONS
+<ul>
+  <li>In this exercise we are going to use the ESP32 to control the light intensity of an external LED using PWM signal.
+From the LED Datasheet tabulate the following data:
+Maximum Forward current (If)
+Typical Forward Voltage (Vf)
+Dominant Wavelength (lambdaD)
+Estimate the color (RGB) from the above wavelength
+Typical Cacpacitance (pF)
+Operating temperature range
+From the ESP32 Datasheet find and tabulate:
+the maximum output voltage of the GPIO pins, and
+the maximum current that the GPIO can source from supply to the load.
+Calculate the value of the resistance to pass half of the Maximum forward current (If) when ON.
+Make sure this current can be sourced by the output port.</li>
+
+  
+|  Sl No  | Data  | Value |
+|-------|------|-------|
+| 1.    | Maximum Forward Current | 30 mA |
+| 2.     | Dominant Wavelength     | 640 nm |
+| 3.     | Typical Forward Voltage  | 1.85 V |
+| 4.     | Estimate the Colour     | Red    |
+| 5.     | Typical Capacitance    |  45pF  |
+  | 6.   | Operating Temperature Range  | 25 ō C |
+  | 7.   | Maximum o/p Voltage    | 5V |
+  | 8.   | Maximum Current        | 40 mA |
+  |  9.  |  Resistance            | 105 ohm |  
+</ul>
+
+
 ## LAB EXERCISE-2
 ## ASSIGNMENT-2 QUESTIONS
 <ul>
