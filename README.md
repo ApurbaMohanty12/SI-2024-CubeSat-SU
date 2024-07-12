@@ -160,7 +160,7 @@ Repository for Summer Internship 2024- **"Introduction to CubeSat and Satellite 
 # Basics of Satellite Communication 🔊
 ## Introduction to Communication and Signal Processing 🔊
 
-  ### MODULATED TECHNIQUES FOR MOBILE RADIO
+  ## Modulated Techniques For Mobile Radio 📲
   <ul>
 <li>	Modulation is the process of encoding information from a message source in a manner suitable for transmission.</li>
 <li>	It generally involves translating a base band signal (called a source) to a band pass signal at frequencies that are very high when compared to the base-band frequencies.</li>
@@ -173,7 +173,7 @@ Repository for Summer Internship 2024- **"Introduction to CubeSat and Satellite 
 
   ![WhatsApp Image 2024-07-10 at 14 22 51 (1)](https://github.com/ApurbaMohanty12/SI-2024-CubeSat-SU/assets/173773194/03caf652-1751-47e9-afc9-0f8195e745f1)
 
-  ### DIGITAL MODULATION
+  ## Digital Modulation 📲
   <ul>
     <li>It is the process of encoding a digital information signal into the amplitude, phase, or frequency of the transmitted signal.</li>
     <li>Digital Modulation provides more information capacity, high data security, quicker system availability with great quality communication. Hence, digital modulation techniques have a greater demand, for their capacity to convey larger amounts of data than analog modulation techniques.</li>
@@ -195,6 +195,17 @@ n=log2m bits/symbol.</li>
 ![Classification-of-Digital-Modulation](https://github.com/ApurbaMohanty12/SI-2024-CubeSat-SU/assets/173773194/9931b51a-f4cd-4729-a4c2-348c041f67c8)
 
 ![0_csn68qlEbjez5CPE](https://github.com/ApurbaMohanty12/SI-2024-CubeSat-SU/assets/173773194/131ccaa6-1c1d-4856-ab78-b20bf85da3f6)
+## Demodulation 📲
+<ul>
+  <li>Demodulation is defined as extracting the original information-carrying signal from a modulated carrier wave.</li>
+  <li>A demodulator is an electronic circuit that is mainly used to recover the information content from the modulated carrier wave.</li>
+  <li>It is done by using a diode to rectify the signals and extract the audio content, or else via filtering to separate the high-frequency carrier signal from the audio content.</li>
+  
+</ul>
+
+
+
+
 ## FFT
 <ul>
   <li>Stands for Fast Fourier Transformation</li>
@@ -257,6 +268,48 @@ An analog front-end (AFE or analog front-end controller AFEC) is a set of analog
 
 
 ![WhatsApp Image 2024-07-11 at 11 20 37 (1)](https://github.com/user-attachments/assets/519e26f4-1e43-4db7-a670-53d1132cb06c)
+
+
+## LoRa Basics
+<ul>
+  <li>Connection of LoRa with ESP32 Board</li>
+</ul>
+
+  ![WhatsApp Image 2024-07-12 at 15 15 54](https://github.com/user-attachments/assets/68eb12f9-f137-4995-a38f-7e7e8bd27817)
+
+  <ul>
+    <li>LoRa Tranceiver Architecture</li>
+  </ul>
+  
+  ![WhatsApp Image 2024-07-12 at 15 18 29](https://github.com/user-attachments/assets/8f8a6585-b330-458c-a697-cf9b84f25950)
+
+  ### Shannon Hartley Theorem
+  <ul>
+    <li>The Shannon capacity theorem defines the maximum amount of information, or data capacity, which can be sent over any channel or medium (wireless, coax, twister pair, fiber etc.). What this says is that higher the signal-to-noise (SNR) ratio and more the channel bandwidth, the higher the possible data rate.</li>
+    
+  </ul>
+  
+![WhatsApp Image 2024-07-12 at 15 22 04](https://github.com/user-attachments/assets/0664d625-6ad1-4c1f-bbb3-588d8d112430)
+
+  
+### RSSI and SNR
+<ul>
+  <li>RSSI stands for Received Signal Strength Indicator,which tells us how well your device can receive signal.</li>
+  <li>The higher the RSSI value, the stronger the signal.</li>
+  <li>SNR stands for Sound to Noise Ratio and it is ratio of signal power to the noise power.</li>
+  <li>Unit of expression - decibles (dB)</li>
+  <li>The higher the ratio, the better the signal quality.</li>
+
+  ![WhatsApp Image 2024-07-12 at 15 24 43 (1)](https://github.com/user-attachments/assets/970585e6-98ea-4cf7-bee0-a53fe9e3e133)
+
+</ul>
+
+
+
+
+  
+
+
 
 
 
