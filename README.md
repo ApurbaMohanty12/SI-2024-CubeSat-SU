@@ -947,9 +947,39 @@ while True:
 ![WhatsApp Image 2024-07-12 at 23 30 41 (1)](https://github.com/user-attachments/assets/40d3cfd5-dd96-4a54-af33-2e742908a861)
 </ul>
 
-# EXERCISES
 
-## LAB EXERCISE-1
+## TinyGS.com 📱
+<ul>
+  <li>Refer to https://tinygs.com/</li>
+ 
+  ### Install and Setup 💻
+  <ul>
+    <li>Connect your ESP32-LoRa board to your desktop/laptop.</li>
+    <li>Follow the instructions on the web installer to install the latest tinyGS firmware.
+Config detailed in this GitPage
+Noticed that for flashing the board, needed to hold the BOOT button down while connecting the USB cable but not sure. Also mentioned in VU3ZAG's blog.</li>
+    <li>After successful flash, boot it up and it will become a hotspot with SSID My Tiny GS.</li>
+    <li>Connect to the hotspot and browse to 192.168.4.1 and configure the board.</li>
+    <li>MQTT and WiFi login credentials will be provided to you.</li>
+    <li>For the Board Type select 433 MHz TTGO LoRa 32 v2 from the dropdown menu.</li>
+    <li>Select TX to make sure that the test mode can be used.</li>
+    <li>Once all info is entered click on the Apply button. The ESP32 will reboot and if all went well the ground station should appear on the Tiny GS site.</li>
+    <li>Once the ground station is estabilished, you can get a temporary passwordless link to your station by typing /weblogin in your telegram BOT. This link will allow you to modify the groundsation parameters.</li>
+  </ul>
+  <li>After this setup the antenna and receive the packets </li>
+  <li>Refer to https://github.com/ApurbaMohanty12/SI-2024-CubeSat-SU/blob/main/TinyGS_Packets.docx</li>
+  
+  ![popo](https://github.com/user-attachments/assets/1a83f6f4-0a4f-460c-b408-b1883eefbbee)
+
+
+
+![tgs](https://github.com/user-attachments/assets/cf628f99-8180-47c8-a936-ac985e6d4031)
+
+</ul>
+
+# EXERCISES 📑
+
+## LAB EXERCISE-1 📖
 ## ASSIGNMENT-1 QUESTIONS
 <ul>
   <li>In this exercise we are going to use the ESP32 to control the light intensity of an external LED using PWM signal.
@@ -981,7 +1011,7 @@ Make sure this current can be sourced by the output port.</li>
 </ul>
 
 
-## LAB EXERCISE-2
+## LAB EXERCISE-2 📖
 ## ASSIGNMENT-2 QUESTIONS
 <ul>
 <li>QUES1-
