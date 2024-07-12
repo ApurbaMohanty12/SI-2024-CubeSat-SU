@@ -1,7 +1,7 @@
 # SI-2024-CubeSat-SU
 Repository for Summer Internship 2024- **"Introduction to CubeSat and Satellite Communication."**
 # 📚THEORY
-## Introductory Talks
+# Introductory Talks
 <ul>
   <li>Brief discussion about the course by Dr Saroj Rout Sir.</li>
   <li>Introductory Talk by Dr Chinmoy Saha Sir.</li>
@@ -897,6 +897,58 @@ while True:
     except Exception as e:
         print(f"Error occurred: {e}")
 ```
+
+## Making Dipole Antennas 📡
+<ul>
+  <li>Download 4nec2 app from https://www.qsl.net/4nec2/</li>
+  <li>Straight Dipole</li>
+  ```python
+  CM Example 1 :	Dipole in free space 	' Comment cards
+CM See GetStarted.txt
+CE 							' End of comment
+'
+GW 1 9 0 -.2418 0 0 .2418 0 .0001		' Wire 1, 9 segments, halve wavelength long.
+GE 0							' End of geometry
+'
+EX 0 1 5 0 1 0					' Voltage source (1+j0) at wire 1 segment 5.
+'
+FR 0 1 0 0 300 0					' Set design frequency (300 Mc).
+'
+EN							' End of NEC input
+```
+
+![Screenshot 2024-07-12 224121](https://github.com/user-attachments/assets/466a6666-db47-48af-9300-d4628a51ef02)
+
+<li>Straight Dipole with 433MHz</li>
+```python
+CM Example 2 :	Loaded dipole in free space
+CM 		See GetStarted.txt
+CE 					' End of comment
+'
+SY len=.330				' Symbol: Length for WL/2
+'
+GW 1 9 0 0 0 17.5 14.335 10.037 .0001	' Wire 1, 9 segments, halve wavelength long.
+GW 2 9 0 0 0 -17.5 -14.335 -10.037 .0001
+GW 3 1 0.5 0.409 0.286 -0.5 -0.409 -0.286 .0001
+GE 0					' End of geometry
+'
+
+LD 5 1 0 0 5.8001E7
+LD 5 2 0 0 5.8001E7
+LD 5 3 0 0 5.8001E7			' Wire conductivity
+'
+EX 0 3 1 0 1 0				' Voltage source (1+j0) at wire 1 segment 5.
+FR 0 1 0 0 433 0			' Set design frequency (300 Mc).
+EN					' End of NEC input
+```
+
+![lala](https://github.com/user-attachments/assets/5990d28e-5266-4ea9-88e9-50855454109a)
+
+<li> V-Dipole</li>
+
+
+  
+</ul>
 
 # EXERCISES
 
