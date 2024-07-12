@@ -334,7 +334,6 @@ An analog front-end (AFE or analog front-end controller AFEC) is a set of analog
 </ul>
 
 
-![WhatsApp Image 2024-07-12 at 15 47 59](https://github.com/user-attachments/assets/d5ba9305-51cd-4226-832e-3104defc6dec)
 
 
 
