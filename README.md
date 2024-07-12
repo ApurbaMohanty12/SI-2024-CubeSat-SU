@@ -892,7 +892,30 @@ while True:
 ```
 
 # EXERCISES
-## LAB EXERCISE-1
+## LAB EXERCISE-2
+## ASSIGNMENT-2 QUESTIONS
+<ul>
+<li>QUES1-
+•	Write a python program to create a cosine wave of frequency 2MHz with 256 samples per cycle.
+•	Plot it with proper annonation and axis labelling.
+•	Compute the FFT of the above signal and plot it.
+</li>
+<li>QUES2-
+•	Create another a signal of frequency 3MHz, add it to above signal and do FFT for the resultant signal.
+•	Change the code such that the modulation frequency for 1 is 4MHz and for 0 it is 3MHz.
+•	Change the above code to simulate ASK modulation.
+</li>
+<li>Ques3-
+•	Add demodulation to the above code and plot the time-domain waveform, as well as the FFT of the demodulated signal.
+•	Add a moving average filter to remove the high-frequency component from the demodulated signal.
+</li>
+  <li>QUES4-
+•	Add demodulation to the above code and plot the time-domain waveform, as well as the FFT of the demodulated signal.
+•	Add a moving average filter to remove the high-frequency component from the demodulated signal.
+  </li>
+<li>QUES5-
+•	Draw the spread-spectrum of the signal and also draw its FFT.</li>
+
 
 
 
