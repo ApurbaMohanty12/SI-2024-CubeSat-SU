@@ -162,6 +162,9 @@ This repository is based upon Satellite Communication,Process of Receiving Signa
 </ul>
 
 # Basics of Satellite Communication 🔊
+
+## Basic Satellite Fundamentals 🛰️
+Refer to https://github.com/ApurbaMohanty12/SI-2024-CubeSat-SU/blob/main/BASIC%20SATELLITE%20FUNDAMENTALS.docx
 ## Introduction to Communication and Signal Processing 🔊
 
   ## Modulated Techniques For Mobile Radio 📲
