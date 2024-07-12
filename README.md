@@ -1,5 +1,9 @@
 # SI-2024-CubeSat-SU
 Repository for Summer Internship 2024- **"Introduction to CubeSat and Satellite Communication."**
+
+# Abstract ✍️
+This repository is based upon Satellite Communication,Process of Receiving Signals ,Introduction to Various New Devices and Introduction to CubeSat. It also includes a project on installation of groundstation.
+
 # 📚THEORY
 # Introductory Talks
 <ul>
@@ -332,7 +336,10 @@ An analog front-end (AFE or analog front-end controller AFEC) is a set of analog
 
 
 
-  
+# Antennas 📡
+<ul>
+  <li></li>
+</ul>
 
 
 
@@ -1349,6 +1356,16 @@ print("Demodulated Signal: ", demodulated_signal)
 
 
 ![Q5](https://github.com/user-attachments/assets/b99ac8c4-bc36-4461-824b-01c06bd64f83)
+
+</ul>
+
+## LAB EXERCISE-3 📖
+### ASSIGNMENT-3 QUESTION 📖 
+<ul>
+  <li>Form a V dipole of length 17.5 cm with a bar in the middle 0.5 cm </li>
+  <li>Tune the antenna to 433 MHz</li>
+  
+  ![loki](https://github.com/user-attachments/assets/d3da63fa-13e8-4bfd-857e-f4c57d6d66e9)
 
 </ul>
 
