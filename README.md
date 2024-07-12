@@ -304,6 +304,24 @@ An analog front-end (AFE or analog front-end controller AFEC) is a set of analog
 
 </ul>
 
+### Properties of LoRa
+
+
+![WhatsApp Image 2024-07-12 at 15 40 45](https://github.com/user-attachments/assets/eb55d71f-d960-46fe-9216-b4c6241b09cb)
+
+
+### SPI
+<ul>
+  <li>A serial peripheral interface facilitates short-distance communication between a microcontroller and peripheral integrated circuits.</li>
+  
+  ![download](https://github.com/user-attachments/assets/0a9e7059-bf6c-483c-a83e-602029d72fee)
+  <li> It is used to facilitate short-distance communication between a microcontroller and one or more peripheral integrated circuits (ICs).</li>
+  
+
+</ul>
+
+
+![WhatsApp Image 2024-07-12 at 15 47 59](https://github.com/user-attachments/assets/d5ba9305-51cd-4226-832e-3104defc6dec)
 
 
 
