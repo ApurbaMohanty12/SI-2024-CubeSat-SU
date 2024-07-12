@@ -232,7 +232,32 @@ n=log2m bits/symbol.</li>
 
 ## VLSI 🪛
 <ul>
-  <li>Refer to https://github.com/ApurbaMohanty12/SI-2024-CubeSat-SU/blob/main/VLSI.docx</li>
+  <li>	It stands for Very Large-Scale Integration</li>
+<li> It is a process used in the design and fabrication of integrated circuits (ICs), which are electronic circuits that are made up of a large number of transistors and other components that are integrated into a single chip.</li>
+<li>It is the technology allows for the creation of highly complex and compact ICs that can be used in a wide range of applications, from consumer electronics and computers to communication systems and medical devices.</li>
+<li>It allows for the creation of highly complex and powerful ICs.</li>
+<li> It allows for the integration of a large number of components onto a single chip, it can reduce the number of discrete components that are needed in a circuit, which can help to reduce the overall cost of the circuit.</li>
+<li>It allows for the creation of ICs with high levels of performance and functionality, which can help to improve the overall performance and efficiency of a system.</li>
+</ul>
+
+![WhatsApp Image 2024-07-11 at 11 05 45 (2)](https://github.com/user-attachments/assets/d8e23d86-64f2-4144-8e60-50290bb7bb3b)
+
+
+![WhatsApp Image 2024-07-11 at 11 12 29 (1)](https://github.com/user-attachments/assets/eb198f63-feac-47ed-85f8-48dde79bf55b)
+
+### INERTIAL MEASUREMENT UNIT
+It is an electronic device that measures and reports a body's specific force, angular rate, and sometimes the orientation of the body, using a combination of accelerometers, gyroscopes, and sometimes magnetometers. When the magnetometer is included, IMUs are referred to as IMMUs.
+
+![WhatsApp Image 2024-07-11 at 11 15 55 (1)](https://github.com/user-attachments/assets/766c499b-8456-45c5-beeb-86c1ec0d5660)
+
+
+### ANALOG FRONT END
+An analog front-end (AFE or analog front-end controller AFEC) is a set of analog signal conditioning circuitry that uses sensitive analog amplifiers, often operational amplifiers, filters, and sometimes application-specific integrated circuits for sensors, radio receivers, and other circuits to provide a configurable and flexible electronics functional block needed to interface a variety of sensors to an antenna, analog-to-digital converter or, in some cases, to a microcontroller.
+
+
+
+![WhatsApp Image 2024-07-11 at 11 20 37 (1)](https://github.com/user-attachments/assets/519e26f4-1e43-4db7-a670-53d1132cb06c)
+
   
 # 💻LAB 
 ## Introduction to Arduino
