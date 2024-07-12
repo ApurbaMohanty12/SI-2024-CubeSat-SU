@@ -900,6 +900,7 @@ while True:
 
 ## Making Dipole Antennas 📡
 <ul>
+  <li>A dipole antenna is an antenna with a center-fed driven element for transmitting or receiving radio frequency energy.</li>
   <li>Download 4nec2 app from https://www.qsl.net/4nec2/ and try out some preloaded examples.</li>
   <li>Example-1)Straight Dipole</li>
 
@@ -921,6 +922,29 @@ while True:
 
 
   
+</ul>
+
+## Tunning of Antenna using VNA 📡
+<ul>
+  <li> Tunning of antenna ensures that the impedances of the feedline and the antenna match perfectly, so that all available power is being radiated.</li>
+  <li>Actual 'tuning' of an antenna involves adjusting its length, or attaching wire and tubing appendages to the structure that add either capacitance or inductance to the path of currents through the antenna.</li>
+  
+  ![WhatsApp Image 2024-07-12 at 23 34 47](https://github.com/user-attachments/assets/f5e3db95-3a95-45fe-9c2c-a97cbb66f7f8)
+
+</ul>
+
+## Setting Up Ground Station
+<ul>
+  <li>A ground station is a collection of equipment installed on the earth's surface that enables communications over one or more satellites.</li>
+  <li>LoRa Module</li>
+  
+  ![WhatsApp Image 2024-07-12 at 23 30 41](https://github.com/user-attachments/assets/743331ff-8b94-4277-bd49-8c0ebcf7fd42)
+
+  <li>Dipole Antenna</li>
+
+  
+
+![WhatsApp Image 2024-07-12 at 23 30 41 (1)](https://github.com/user-attachments/assets/40d3cfd5-dd96-4a54-af33-2e742908a861)
 </ul>
 
 # EXERCISES
