@@ -256,6 +256,8 @@ n=log2m bits/symbol.</li>
 
 ![WhatsApp Image 2024-07-11 at 11 12 29 (1)](https://github.com/user-attachments/assets/eb198f63-feac-47ed-85f8-48dde79bf55b)
 
+
+
 ### INERTIAL MEASUREMENT UNIT
 It is an electronic device that measures and reports a body's specific force, angular rate, and sometimes the orientation of the body, using a combination of accelerometers, gyroscopes, and sometimes magnetometers. When the magnetometer is included, IMUs are referred to as IMMUs.
 
@@ -316,6 +318,11 @@ An analog front-end (AFE or analog front-end controller AFEC) is a set of analog
   
   ![download](https://github.com/user-attachments/assets/0a9e7059-bf6c-483c-a83e-602029d72fee)
   <li> It is used to facilitate short-distance communication between a microcontroller and one or more peripheral integrated circuits (ICs).</li>
+
+  ## Electromagnetic Waves 
+  <ul>
+    <li>Refer to https://github.com/ApurbaMohanty12/SI-2024-CubeSat-SU/blob/main/ELECTROMAGNETIC%20WAVES.docx</li>
+  </ul>
   
 
 </ul>
