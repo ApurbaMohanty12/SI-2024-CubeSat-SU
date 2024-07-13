@@ -1045,9 +1045,11 @@ Noticed that for flashing the board, needed to hold the BOOT button down while c
   
   ![popo](https://github.com/user-attachments/assets/1a83f6f4-0a4f-460c-b408-b1883eefbbee)
 
-
+<li>For Received Packet Information refer to https://github.com/ApurbaMohanty12/SI-2024-CubeSat-SU/blob/main/PACKETS.xlsx</li>
 
 ![tgs](https://github.com/user-attachments/assets/cf628f99-8180-47c8-a936-ac985e6d4031)
+
+
 
 </ul>
 
