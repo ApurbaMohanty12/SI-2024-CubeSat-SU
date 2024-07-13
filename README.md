@@ -424,9 +424,9 @@ It is a combination of two waves moving in opposite directions, each having the 
 </ul>
 
 
-## Introduction to ESPN32 Board
+## Introduction to ESP32 Board
 <ul>
-  <li>Introduction to ESPN32 Board by Prof Prasanta Swain Sir.
+  <li>Introduction to ESP32 Board by Prof Prasanta Swain Sir.
   <li>ESPN32 is technically a chip,that provide Internet and Bluetooth to IoT Devices.</li>
 
   ![download (1)](https://github.com/ApurbaMohanty12/SI-2024-CubeSat-SU/assets/173773194/36c05c2b-37e4-4ba3-9a0f-9d5682a4098d)
