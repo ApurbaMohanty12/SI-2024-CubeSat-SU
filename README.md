@@ -150,8 +150,25 @@ This repository is based upon Satellite Communication,Process of Receiving Signa
  </ul>
 
  ## Capacitors 🔋
+ ### CHARGING OF CAPACITORS:
  <ul>
-   <li>Refer to https://github.com/ApurbaMohanty12/SI-2024-CubeSat-SU/blob/main/CAPACITORS.docx</li>
+   <li>A capacitor may be charged through high resistance from a battery of V volts.	The voltage across the capacitor can be measured by a suitable voltmeter.
+</li>
+   <li>When the switch is connected to the terminal, capacitor is charged, but when the capacitor is short-circuited through the resistor, it is discharged.
+The voltage across the capacitor does not rise to V instantaneously but builds up slowly, i.e exponentially not linearly.	Charging current i.c is maximum at the start i.e when the capacitor is uncharged, then it decreases exponentially and finally ceases when the potential difference across the capacitor plates becomes equal and opposite to the battery voltage V.
+</li>
+   <li>Basic formulas-</li>
+   <ul>
+     <li>C = εA/d</li>
+     <li> i = C dv/dt.</li>
+     <li>Q = C × V</li>
+     <li> t = s = RC</li>
+     
+     <li>Q=CV(1−e−t/(RC)) -Charging  </li>
+     <li>Q=Q0e−t/(RC)  -Discharging </li>
+   </ul>
+   ![download](https://github.com/user-attachments/assets/661d17dd-d7cd-417e-95d0-fde366d2aef4)
+
  </ul>
 
 ## Microprocessor and Microcontroller
