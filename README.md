@@ -150,7 +150,7 @@ This repository is based upon Satellite Communication,Process of Receiving Signa
  </ul>
 
  ## Capacitors 🔋
- ### CHARGING OF CAPACITORS:
+ ### CHARGING AND DISCHARGING OF CAPACITORS:
  <ul>
    <li>A capacitor may be charged through high resistance from a battery of V volts.	The voltage across the capacitor can be measured by a suitable voltmeter.
 </li>
@@ -162,12 +162,11 @@ The voltage across the capacitor does not rise to V instantaneously but builds u
      <li>C = εA/d</li>
      <li> i = C dv/dt.</li>
      <li>Q = C × V</li>
-     <li> t = s = RC</li>
-     
-     <li>Q=CV(1−e−t/(RC)) -Charging  </li>
-     <li>Q=Q0e−t/(RC)  -Discharging </li>
+     <li> t = s = RC</li> 
+     <li>Q=CV(1−e−t/(RC)) -Charging</li>
+     <li>Q=Q0e−t/(RC)  -Discharging</li>
    </ul>
-   ![download](https://github.com/user-attachments/assets/661d17dd-d7cd-417e-95d0-fde366d2aef4)
+  
 
  </ul>
 
