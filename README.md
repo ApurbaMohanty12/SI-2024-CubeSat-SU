@@ -992,22 +992,6 @@ while True:
   <li>A dipole antenna is an antenna with a center-fed driven element for transmitting or receiving radio frequency energy.</li>
   <li>Download 4nec2 app from https://www.qsl.net/4nec2/ and try out some preloaded examples.</li>
  
-  ### Example-1)Straight Dipole
-
-
-![Screenshot 2024-07-12 224121](https://github.com/user-attachments/assets/466a6666-db47-48af-9300-d4628a51ef02)
-
-### Example-2)Straight Dipole with 433MHz</li>
-
-
-
-![lala](https://github.com/user-attachments/assets/5990d28e-5266-4ea9-88e9-50855454109a)
-
-### Example-3) V-Dipole
-
-
-
-![mee](https://github.com/user-attachments/assets/7489a11a-bc1b-46bd-81df-55728e08b73f)
 
 
 
